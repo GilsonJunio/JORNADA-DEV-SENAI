@@ -1,0 +1,2 @@
+metodo para aplicar uma função de callback em array e retorna cada elemento do array
+diferente do map, o forEach nao retorna um array com as alterações da função de callback, ele retorna os indexes individualmente

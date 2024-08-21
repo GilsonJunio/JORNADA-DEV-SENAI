@@ -1,0 +1,25 @@
+CLASSES CRIAM OBJETOS
+
+É NECESSÁRIO INSTANCIAR UMA CLASSE. INSTACIA-SE UMA CLASSE ASSIM:
+
+let variavel = new class(parametro1,.....)
+
+A CLASSE PODE RECEBER PARÂMETROS
+
+CLASSES SÃO DEFINIDAS ASSIM:
+
+class NovaClasse{
+
+}
+
+CONSTRUCTORS SÃO MÉTODOS DEFINIDOS DENTRO DA CLASSE:
+
+class NovaClasse{
+    constructor(){
+	código aqui dentro será executado ao instanciar a classe
+}
+}
+
+QUANDO INSTANCIAR ESSA CLASSE, O MÉTODO CONSTRUCTOR SERÁ CHAMADO
+
+let variavel = new NovaClasse() // O CONSTRUCTOR SERÁ CHAMADO!

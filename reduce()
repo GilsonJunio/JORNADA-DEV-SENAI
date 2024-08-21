@@ -1,0 +1,18 @@
+Método para reduzir o número de indexes do array
+
+array.reduce(function(parametro1,parametro2),parametro1)// será retornado um novo array contendo as operações aplicadas pela função de callback.
+
+Exemplo:
+let array = [1,2]
+let novoArray = array.reduce(function(a,b){
+			return a+b
+		},0)
+//a é o dado inicial ou seja, 0
+//b é o valor de cada index do array
+//assim a + b = 0+1 = 1
+//a+b = 1+2 = 3
+
+///novoArray = [3]
+
+
+Utilizada normalmente para somar os indexes de um array

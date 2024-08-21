@@ -1,0 +1,4 @@
+método de arrays que permite adicionar novos indices ao array desejado. o metodo push retorna o comprimento do array.
+
+let a = [1,2,3]
+a.push(5) //adiciona 5 como index ao array a; retorna 4, pois é o novo length do array
